@@ -27,11 +27,12 @@ Uma aplicação "Only Api" em Rails 5 consumida por um frontend desenvolvido em 
 
 #### API Rails
 1. Acesse o diretório 'pet_api'
-2. Crie a base de dados: ``` rake db:create db:create ```
+2. Instale as dependências: ```bundle install ``` 
+3. Crie a base de dados: ``` rake db:create db:migrate ```
 
 <b> Gerador de 1.000 cachorros </b>
 
-3. Para gerar os cachorros: ``` rake dev:create_dogs ```
+4. Para gerar os cachorros: ``` rake dev:create_dogs ```
 
 >Como os 1000 registros são dados apenas para teste da aplicação e não dados que devem vir preenchidos para que a aplicação funcione foi criada uma <b>task</b> no escopo dev para a criação dos cachorros.
 >
